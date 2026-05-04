@@ -1,0 +1,33 @@
+:root, html, body {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0px;
+    font-style: normal;
+    min-height: 100vh;
+}
+
+input {
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+div.inp-boxes {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
