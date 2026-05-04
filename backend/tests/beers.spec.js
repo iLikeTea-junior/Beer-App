@@ -1,15 +1,6 @@
 import { test, expect, request } from "@playwright/test";
 import { loggedInRequest } from "./helpers/loggedInRequest";
 
-
-// test.describe("Retrieve Beers", () => {
-//     test("should return 4 beers initially", async () => {
-//         const res = await loggedInRequest("user", "/beers");
-//         const beers = await res.json();
-//         expect(beers.length).toBe(4);
-//     });
-// });
-
 // ------------ Success Cases
 
 test.describe("Add a new beer to the system", () => {
