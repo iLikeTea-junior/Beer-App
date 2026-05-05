@@ -18,7 +18,6 @@ test.describe("Add a new beer to the system", () => {
 
         const beersRes = await loggedInRequest('admin:admin', "/beers");
         const beersBody = await beersRes.json();
-        console.log(beersBody)
         expect(beersBody.length).toBe(5);
     })
 })
