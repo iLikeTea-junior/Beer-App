@@ -1,1 +1,0 @@
-In this folder you should create your tests.
